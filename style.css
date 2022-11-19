@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap);
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section__donate {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 100%;
+    height: 100%;
+    background-image: url(xuinya.png); /* Адрес картинки */
+    background-size: cover; /* Заполнение */
+}
+
+.section__firstheader {
+    width: 100%;
+    background-color: #FF8066;
+}
+
+.section__header {
+    padding-left: 100px;
+    display: inline-flex;
+}
+
+.header {
+  padding-left: 150px;
+}
+
+.donate-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 7px 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+    transition: .2s ease-in-out;
+  }
+  .donate-button:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
+  }
+  .donate-button:hover {
+    background: #fe6637;
+    color: #fff;
+  }
+  .donate-button:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
+  }
+
+.save {
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+.menu-main {
+    list-style: none;
+    margin: 10px 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+  }
+  .menu-main li {display: inline-block;}
+  .menu-main li:after {
+    content: "|";
+    color: white;
+    display: inline-block;
+    vertical-align:top;
+  }
+  .menu-main li:last-child:after {content: none;}
+  .menu-main a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+  }
+  .menu-main a, .menu-main a:visited {color: white;}
+  .menu-main a.current, .menu-main a:hover{color: #FBEAFF;}
+  .menu-main a:before,
+  .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #feb386;
+    transition: .8s;
+  }
+  .menu-main a:hover:before, .menu-main .current:before {left: 0;}
+  .menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+
+.laugh {
+  color: white;
+  margin: 0 auto;
+  height: 4vh;
+  font-size: 26px;
+  padding-top: 75px;
+}
+
+.main__laugh {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  height: 5vh;
+  font-size: 35px;
+}
+
+.main__image__info {
+  text-align: center;
+  size: 100%;
+  height: 76.9vh;
+  background-image: url(xuinya.png); /* Адрес картинки */
+  background-size: cover; /* Заполнение */
+}
+
+
+.wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  padding: 50px;
+}
+
+.informBlock {
+	width: 30%;
+	height: 550px;
+	padding: 30px;
+	box-sizing: border-box;
+	transition: .4s;
+  background: linear-gradient(#bfff00  , #405500) fixed;
+}
+
+.informBlock i {
+	color: #e9204f;
+	font-size: 35px;
+	margin-top: 20px;
+	transition: .4s;
+}
+
+.mainText {
+	color: #fff;
+	margin: 10px 0 0 0;
+	font-size: 32px;
+}
+
+.underlineBlock {
+	height: 0;
+	width: 100px;
+	border-top: 2px solid #e9204f;
+	margin-top: 10px;
+	transition: .4s;
+}
+
+.secondText {
+	color: #fff;
+	font-size: 27px;
+	margin-top: 15px;
+}
+
+.about-text {
+  text-align: center;
+  margin: 0 auto;
+  padding: 70px 0 20px;
+  color: white;
+  font-size: 34px;
+}
+
+.smth {
+  background-image: url(cum.png); /* Адрес картинки */
+  background-size: cover; /* Заполнение */
+  height: 750px;
+}
+
+.band {
+  background-image: url(cum_second.png); /* Адрес картинки */
+  background-size: cover; /* Заполнение */
+}
+
+.photo {
+  padding: 0 0 0 95px;
+  width: 175px;
+  height: 175px;
+  border-radius: 25%;
+}

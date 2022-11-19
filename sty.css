@@ -1,0 +1,62 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
+	background: #000;
+}
+
+.wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.informBlock {
+	background: #1b1b1b;
+	padding: 30px;
+	box-sizing: border-box;
+	transition: .4s;
+}
+
+.informBlock i {
+	color: #e9204f;
+	font-size: 35px;
+	margin-top: 20px;
+	transition: .4s;
+}
+
+.mainText {
+	color: #fff;
+	margin: 55px 0 0 0;
+	font-size: 20px;
+}
+
+.underlineBlock {
+	height: 0;
+	width: 35px;
+	border-top: 2px solid #e9204f;
+	margin-top: 10px;
+	transition: .4s;
+}
+
+.secondText {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.informBlock:hover {
+	background: #e9204f;
+}
+
+.informBlock:hover i {
+	color: #fff;
+}
+
+.informBlock:hover .underlineBlock {
+	border-color: #fff;
+}
